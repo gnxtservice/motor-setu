@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Motor Setu</title>
+
+<style>
+body {
+  font-family: Arial;
+  background: #fdf6ec;
+  text-align: center;
+  padding: 15px;
+}
+
+.box {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+h2 { color:#333; }
+
+.marquee {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: block;
+  margin: 14px 0;
+  padding: 15px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Hover Animation */
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+/* Fire Glow Effect */
+.btn::after {
+  content: "🔥";
+  position: absolute;
+  right: 15px;
+  animation: fire 1s infinite alternate;
+}
+
+@keyframes fire {
+  0% { transform: scale(1); opacity: 0.7; }
+  100% { transform: scale(1.3); opacity: 1; }
+}
+
+.call { background: linear-gradient(45deg, #007bff, #00c6ff); }
+.insurance { background: linear-gradient(45deg, #ff7b00, #ff3d00); }
+.puc { background: linear-gradient(45deg, #28a745, #00c851); }
+.rto { background: linear-gradient(45deg, #6f42c1, #9c27b0); }
+
+.offer {
+  background: red;
+  padding: 5px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  margin-left: 8px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+
+<h2>Motor Setu Services</h2>
+
+<div class="marquee">
+<marquee>🔥 Best Deals | ⚡ Instant Policy | 🎁 10% OFF | 💬 Fast Support</marquee>
+</div>
+
+<a class="btn call" href="tel:8077220377">
+📞 Call Now
+</a>
+
+<a class="btn insurance" href="https://wa.me/918077220377?text=I%20want%20vehicle%20insurance">
+🚗 Vehicle Insurance <span class="offer">10% OFF</span>
+</a>
+
+<a class="btn puc" href="https://wa.me/918077220377?text=PUC%20certificate">
+📄 PUC Certificate
+</a>
+
+<a class="btn rto" href="https://wa.me/918077220377?text=RTO%20service">
+🏢 RTO Service
+</a>
+
+<p style="margin-top:15px; color:#555;">
+📧 motorsetuinsurance@gmail.com <br><br>
+✔ Car | Bike | Commercial Insurance  
+✔ Trusted Service  
+</p>
+
+</div>
+
+</body>
+</html>
