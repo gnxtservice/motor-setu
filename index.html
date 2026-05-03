@@ -2,71 +2,162 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Motor Setu</title>
+<title>Motor Setu Insurance</title>
 
 <style>
 body {
+  margin:0;
   font-family: Arial;
-  background: #fdf6ec;
-  text-align: center;
-  padding: 20px;
+  background: linear-gradient(135deg,#fff5e6,#ffe6cc);
 }
 
+/* TOP BANNER */
+.top-banner {
+  background:#ffeb3b;
+  overflow:hidden;
+  white-space:nowrap;
+}
+.scroll-text {
+  display:inline-block;
+  padding:10px;
+  font-weight:bold;
+  color:black;
+  animation:scroll 12s linear infinite;
+}
+@keyframes scroll {
+  from{transform:translateX(100%)}
+  to{transform:translateX(-100%)}
+}
+
+/* MAIN BOX */
 .box {
-  background: #fff;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  margin:15px;
+  background:white;
+  padding:20px;
+  border-radius:15px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.15);
+  text-align:center;
 }
 
+/* RED STRIP */
+.red-strip {
+  background:#e53935;
+  color:white;
+  padding:8px;
+  border-radius:8px;
+  font-weight:bold;
+  margin:10px 0;
+}
+
+/* BUTTON */
 .btn {
-  display: block;
-  margin: 12px 0;
-  padding: 14px;
-  border-radius: 10px;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: bold;
-  color: white;
+  display:block;
+  margin:12px 0;
+  padding:15px;
+  border-radius:12px;
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+  transition:0.3s;
+}
+.btn:hover {
+  transform:scale(1.05);
 }
 
-.call { background: #007bff; }
-.insurance { background: #ff9800; }
-.puc { background: #28a745; }
-.rto { background: #6f42c1; }
+/* COLORS */
+.call {background:linear-gradient(45deg,#007bff,#00c6ff);}
+.insurance {background:linear-gradient(45deg,#ff7b00,#ff3d00);}
+.puc {background:linear-gradient(45deg,#28a745,#00c851);}
+.rto {background:linear-gradient(45deg,#6f42c1,#9c27b0);}
 
+/* SMALL BOXES */
+.small-box {
+  display:inline-block;
+  padding:5px 10px;
+  margin:5px;
+  border-radius:8px;
+  background:white;
+  color:black;
+  font-size:12px;
+}
+
+/* OFFER TAG */
 .offer {
-  background: red;
-  padding: 4px 8px;
-  border-radius: 6px;
-  font-size: 12px;
+  position:absolute;
+  left:10px;
+  top:10px;
+  background:yellow;
+  color:black;
+  padding:3px 6px;
+  border-radius:5px;
+  font-size:11px;
+}
+
+/* CONTACT */
+.footer {
+  margin-top:10px;
+  font-size:14px;
+}
+.rating {
+  margin-top:10px;
+}
+.disclaimer {
+  font-size:11px;
+  color:#666;
+  margin-top:10px;
 }
 </style>
 </head>
 
 <body>
 
+<div class="top-banner">
+<div class="scroll-text">
+🔥 Lowest Price Guarantee 💯 | ⚡ Instant Policy Issuance ⌛ | ⭐ 1+ Lakh Happy Customers | 🎁 Upto 10% Discount 🥳 | 💬 Best Customer Support 24x7
+</div>
+</div>
+
 <div class="box">
 
-<h2>Motor Setu Services</h2>
+<h2>MOTOR SETU INSURANCE</h2>
+<p>✔ Authorized & Trusted Insurance Partner</p>
 
-<marquee>🔥 Best Deals | Instant Policy | 10% OFF</marquee>
+<div class="red-strip">
+✔ Trusted Insurance Partner | ⚡ Fast Claim Support | 🏆 50+ Insurance Companies
+</div>
 
-<a class="btn call" href="tel:8077220377">📞 Call Now</a>
-
-<a class="btn insurance" href="https://wa.me/918077220377">
-🚗 Vehicle Insurance <span class="offer">10% OFF</span>
+<a class="btn call" href="tel:8077220377">
+📞 Call Now
 </a>
 
-<a class="btn puc" href="https://wa.me/918077220377">
+<a class="btn insurance" href="https://wa.me/918077220377?text=Hello%20I%20want%20vehicle%20insurance">
+🚗 Vehicle Insurance<br>
+<span class="small-box">🏍 Bike</span>
+<span class="small-box">🚗 Car</span>
+<span class="small-box">🚛 Commercial</span><br>
+🎁 UPTO 10% OFF
+</a>
+
+<a class="btn puc" href="https://wa.me/918077220377?text=I%20want%20PUC">
 📄 PUC Certificate
 </a>
 
-<a class="btn rto" href="https://wa.me/918077220377">
+<a class="btn rto" href="https://wa.me/918077220377?text=I%20need%20RTO%20service">
 🏢 RTO Service
 </a>
 
-<p>📧 motorsetuinsurance@gmail.com</p>
+<div class="footer">
+📞 Call / WhatsApp: 8077220377 <br>
+📧 motorsetuinsurance@gmail.com
+</div>
+
+<div class="rating">
+⭐ 4.8/5 Customer Rating | 1+ Lakh Happy Customers
+</div>
+
+<div class="disclaimer">
+Disclaimer: Motor Setu Insurance is a service provider and not an insurance company. Policies are issued through authorized insurance partners.
+</div>
 
 </div>
 
